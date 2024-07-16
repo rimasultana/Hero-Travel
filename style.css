@@ -14,7 +14,11 @@ li {
   font-size: 1.2rem;
   line-height: 23px;
   letter-spacing: 0%;
+  text-align: center;
 }
+/* <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* nav-section start */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- --> */
 .container {
   width: 90%;
   margin: 5rem auto;
@@ -30,7 +34,7 @@ li {
   align-items: center;
   width: 280px;
 }
-.logo h3 {
+h3 {
   font-weight: 800;
   font-size: 2.4rem;
   text-align: center;
@@ -50,4 +54,75 @@ li {
   gap: 3rem;
   justify-content: space-evenly;
   align-items: center;
+}
+/* <!--  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Explore your Travel Start
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- --> */
+
+.explore-your-travel {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  background-position: center;
+  padding: 7rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.explore-container h3 {
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0%;
+  margin-bottom: 1.5rem;
+}
+.explore-container p {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 676px;
+}
+.travel-input {
+  border-radius: 8px;
+  background: rgb(255, 255, 255, 0.2);
+  padding: 1rem;
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+input,
+select {
+  width: 175px;
+  height: 53px;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+.btn-primary {
+  width: 175px;
+  height: 53px;
+  border-radius: 1rem;
+  background: rgb(255, 84, 0);
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+  color: white;
+  border: 1px solid rgb(255, 84, 0);
 }
