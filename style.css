@@ -198,6 +198,7 @@ ul li {
   line-height: 50px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 16px;
 }
 .description {
   color: rgba(19, 19, 24, 0.7);
@@ -206,7 +207,6 @@ ul li {
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
-  margin-top: 16px;
 }
 
 .choose-container {
@@ -257,6 +257,194 @@ ul li {
   letter-spacing: 0%;
   margin-top: 16px;
   text-align: start;
+}
+
+/* <!--  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+              Deals & Discounts Start
+    =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- --> */
+.discounts-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.discount-container {
+  margin-top: 60px;
+  position: relative;
+}
+.card-container {
+  position: absolute;
+  top: 60px;
+  right: 100px;
+  width: 579px;
+  height: 389px;
+  padding: 50px 77px 50px 50px;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  backdrop-filter: blur(1px);
+  background: rgba(255, 255, 255, 0.8);
+}
+.middle-card {
+  position: absolute;
+  left: 60px;
+}
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#icon-color {
+  color: rgb(255, 84, 0);
+}
+.icon {
+  color: rgb(90, 90, 93);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-title {
+  color: rgb(19, 19, 24);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 32px;
+}
+.card-description {
+  color: rgb(90, 90, 93);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 16px;
+}
+.card-price {
+  color: rgb(255, 84, 0);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+  margin-top: 16px;
+}
+.btn-package {
+  margin-top: 50px;
+  position: absolute;
+  left: 620px;
+}
+
+/* <!--  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+A Simple Perfect Place To Get Lost Start
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- --> */
+
+.place-section {
+  margin-top: 250px;
+}
+.list-item {
+  font-weight: 700;
+  color: rgb(19, 19, 24);
+}
+.iframe {
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgb(19, 19, 24) -31.958%,
+    rgba(19, 19, 24, 0) 100%
+  );
+}
+/* 
+<!--  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Newsletter Start
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- --> */
+
+.newslatter-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.newsletter-content {
+  width: 50%;
+  padding: 20px;
+  text-align: left;
+}
+.newsletter-content h1 {
+  color: rgb(19, 19, 24);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+.newsletter-content p {
+  color: rgb(90, 90, 93);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  text-align: start;
+}
+input {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  margin-bottom: 15px;
+  width: 450px;
+  height: 70px;
+  margin-left: 0;
+  padding-left: 20px;
+  border: none;
+}
+#Subscribe {
+  text-align: center;
+  font-weight: 700;
+  background: rgb(255, 84, 0);
+}
+
+.newsletter-img {
+  width: 50%;
+  position: relative;
+}
+.offers-container {
+  width: 310px;
+  height: 100px;
+  background: rgb(255, 84, 0);
+  text-align: center;
+  border-radius: 16px;
+  background: rgb(255, 84, 0);
+  position: absolute;
+  right: 10px;
+  bottom: 60px;
+ transform: rotate(-25deg);
+}
+.offers-container h4 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  padding-top: 20px;
+}
+.offers-container h2 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 0%;
+  margin-bottom: 15px;
 }
 
 /* <!--  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
